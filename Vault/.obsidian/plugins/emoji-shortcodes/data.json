@@ -1,0 +1,16 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":sleepy:",
+    ":clock1030:",
+    ":toilet:",
+    ":shallow_pan_of_food:",
+    ":family_man_girl_boy:",
+    ":writing_hand:",
+    ":white_check_mark:",
+    ":ballot_box_with_check:"
+  ]
+}

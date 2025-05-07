@@ -1,0 +1,13 @@
+{
+  "regex": {},
+  "lineRegex": {},
+  "linkRegex": {},
+  "linkLineRegex": {},
+  "imageRegex": {},
+  "shouldReplaceSelection": false,
+  "enhanceDefaultPaste": true,
+  "enhanceDropEvents": true,
+  "websiteBlacklist": "internalfb.com, fb.workplace.com",
+  "maximumTitleLength": 0,
+  "useNewScraper": false
+}

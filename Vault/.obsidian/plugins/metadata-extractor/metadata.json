@@ -1,0 +1,487 @@
+[
+  {
+    "fileName": "Top of Mind",
+    "relativePath": "Templates/Top of Mind.md",
+    "tags": [
+      "top-of-mind",
+      "wp-post",
+      "top-of-mind-post"
+    ],
+    "frontmatter": {},
+    "headings": [
+      {
+        "heading": "ToM Week <% moment().format(\"WW\") %>",
+        "level": 1
+      },
+      {
+        "heading": "This Week",
+        "level": 2
+      },
+      {
+        "heading": "Focus 🔎️",
+        "level": 3
+      },
+      {
+        "heading": "Last Week",
+        "level": 2
+      },
+      {
+        "heading": "Completed ✅️",
+        "level": 3
+      },
+      {
+        "heading": "Unfinished 🎒️",
+        "level": 3
+      },
+      {
+        "heading": "Personal 🐶️",
+        "level": 3
+      },
+      {
+        "heading": "Refs",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Weekly",
+    "relativePath": "Templates/Weekly.md",
+    "headings": [
+      {
+        "heading": "TODO",
+        "level": 2
+      },
+      {
+        "heading": "TODID",
+        "level": 2
+      },
+      {
+        "heading": "Social",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Root",
+    "relativePath": "Templates/Root.md",
+    "links": [
+      {
+        "link": "Meeting Notes",
+        "relativePath": "Templates/Meeting Notes.md"
+      },
+      {
+        "link": "Post Template",
+        "relativePath": "Templates/Post Template.md"
+      },
+      {
+        "link": "Monthly",
+        "displayText": "Templates/Monthly",
+        "relativePath": "Templates/Monthly.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Post Template",
+    "relativePath": "Templates/Post Template.md",
+    "tags": [
+      "wp-post"
+    ],
+    "frontmatter": {
+      "role": "dri",
+      "deadline": null
+    },
+    "headings": [
+      {
+        "heading": "<% tp.file.title.replace(/\\s?\\[?post\\]?\\s?\\-?\\s?/ig, '').replace(/\\s?\\[?note\\]?\\s?\\-?\\s?/ig, '') %>",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Me"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Root",
+        "link": "Post Template",
+        "relativePath": "Templates/Root.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Project",
+    "relativePath": "Templates/Project.md",
+    "tags": [
+      "project"
+    ],
+    "frontmatter": {
+      "axis": null,
+      "role": null,
+      "deadline": null,
+      "check-in frequency": 14,
+      "status": "Not-Started"
+    },
+    "headings": [
+      {
+        "heading": "Artifacts",
+        "level": 2
+      },
+      {
+        "heading": "Contributors",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "People",
+    "relativePath": "Templates/People.md",
+    "tags": [
+      "people"
+    ],
+    "frontmatter": {
+      "assumed-level": null,
+      "title": null,
+      "team": null
+    },
+    "headings": [
+      {
+        "heading": "Projects Collaborated On",
+        "level": 2
+      },
+      {
+        "heading": "Artifacts",
+        "level": 3
+      },
+      {
+        "heading": "Feedback",
+        "level": 2
+      },
+      {
+        "heading": "Notes",
+        "level": 3
+      },
+      {
+        "heading": "2024 Feedback",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Monthly",
+    "relativePath": "Templates/Monthly.md",
+    "tags": [
+      "monthly"
+    ],
+    "frontmatter": {},
+    "headings": [
+      {
+        "heading": "<% moment(tp.file.title, \"YYYY-MM\").format(\"YYYY MMMM\") %>",
+        "level": 1
+      },
+      {
+        "heading": "Tracking",
+        "level": 2
+      },
+      {
+        "heading": "Completed",
+        "level": 2
+      },
+      {
+        "heading": "Incomplete",
+        "level": 2
+      },
+      {
+        "heading": "Learnings",
+        "level": 2
+      },
+      {
+        "heading": "Thoughts",
+        "level": 2
+      },
+      {
+        "heading": "Artifacts",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM\").subtract(1, \"months\").format(\"YYYY-MM\") %>",
+        "displayText": "<%moment(tp.file.title, \"YYYY-MM\").subtract(1, \"months\").format(\"MMM\") %>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM\").format(\"YYYY\")-%>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM\").add(1, \"months\").format(\"YYYY-MM\") %>",
+        "displayText": "<%moment(tp.file.title, \"YYYY-MM\").add(1, \"months\").format(\"MMM\")%>"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Root",
+        "link": "Monthly",
+        "relativePath": "Templates/Root.md",
+        "displayText": "Templates/Monthly"
+      }
+    ]
+  },
+  {
+    "fileName": "Note",
+    "relativePath": "Templates/Note.md",
+    "tags": [
+      "notes"
+    ],
+    "frontmatter": {},
+    "headings": [
+      {
+        "heading": "Key Points",
+        "level": 2
+      },
+      {
+        "heading": "Refs",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Meeting Notes",
+    "relativePath": "Templates/Meeting Notes.md",
+    "tags": [
+      "meeting-notes"
+    ],
+    "frontmatter": {
+      "role": null
+    },
+    "headings": [
+      {
+        "heading": "<% tp.file.title %>",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "<% tp.date.now(\"YYYY-MM-DD\") %>",
+        "displayText": "<% tp.date.now(\"Do MMMM YYYY\") %>"
+      },
+      {
+        "link": "Me"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Root",
+        "link": "Meeting Notes",
+        "relativePath": "Templates/Root.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Daily",
+    "relativePath": "Templates/Daily.md",
+    "tags": [
+      "daily"
+    ],
+    "frontmatter": {},
+    "headings": [
+      {
+        "heading": "[[<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-MM\") %> | <% moment(tp.file.title, \"YYYY-MM-DD\").format(\"MMMM\") %>]] <% moment(tp.file.title, \"YYYY-MM-DD\").format(\"Do, YYYY\") %>",
+        "level": 2
+      },
+      {
+        "heading": "Timeline",
+        "level": 2
+      },
+      {
+        "heading": "Todo",
+        "level": 2
+      },
+      {
+        "heading": "Check-ins",
+        "level": 3
+      },
+      {
+        "heading": "Project Tasks",
+        "level": 3
+      },
+      {
+        "heading": "Carry Over Tasks",
+        "level": 3
+      },
+      {
+        "heading": "Learnings",
+        "level": 2
+      },
+      {
+        "heading": "Thoughts",
+        "level": 2
+      },
+      {
+        "heading": "Artifacts",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-MM\") %>",
+        "displayText": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"MMMM\") %>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").subtract(1, \"days\").format(\"YYYY-MM-DD\") %>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-[W]WW\")-%>",
+        "displayText": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"[W]WW\")-%>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").add(1, \"days\").format(\"YYYY-MM-DD\") %>"
+      }
+    ]
+  },
+  {
+    "fileName": "Artifact",
+    "relativePath": "Templates/Artifact.md",
+    "tags": [
+      "artifact"
+    ],
+    "frontmatter": {
+      "role": null
+    },
+    "headings": [
+      {
+        "heading": "Contributors",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Projects",
+    "relativePath": "Projects/Projects.md",
+    "headings": [
+      {
+        "heading": "Project Impact",
+        "level": 2
+      },
+      {
+        "heading": "My Team",
+        "level": 3
+      },
+      {
+        "heading": "BE",
+        "level": 2
+      },
+      {
+        "heading": "Developer Efficiency Projects",
+        "level": 3
+      },
+      {
+        "heading": "People",
+        "level": 2
+      },
+      {
+        "heading": "Areas",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "PA",
+    "relativePath": "PA.md",
+    "headings": [
+      {
+        "heading": "Entities",
+        "level": 2
+      },
+      {
+        "heading": "Project",
+        "level": 3
+      },
+      {
+        "heading": "Daily's",
+        "level": 3
+      },
+      {
+        "heading": "Tasks",
+        "level": 3
+      },
+      {
+        "heading": "Tags",
+        "level": 4
+      }
+    ],
+    "links": [
+      {
+        "link": "#project",
+        "relativePath": "PA.md",
+        "cleanLink": "PA",
+        "displayText": "project"
+      }
+    ]
+  },
+  {
+    "fileName": "Inbox",
+    "relativePath": "Notes/Inbox/Inbox.md"
+  },
+  {
+    "fileName": "2025-05-07",
+    "relativePath": "Calendar/2025-05-07.md",
+    "tags": [
+      "daily"
+    ],
+    "frontmatter": {},
+    "headings": [
+      {
+        "heading": "[[<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-MM\") %> | <% moment(tp.file.title, \"YYYY-MM-DD\").format(\"MMMM\") %>]] <% moment(tp.file.title, \"YYYY-MM-DD\").format(\"Do, YYYY\") %>",
+        "level": 2
+      },
+      {
+        "heading": "Timeline",
+        "level": 2
+      },
+      {
+        "heading": "Todo",
+        "level": 2
+      },
+      {
+        "heading": "Check-ins",
+        "level": 3
+      },
+      {
+        "heading": "Project Tasks",
+        "level": 3
+      },
+      {
+        "heading": "Carry Over Tasks",
+        "level": 3
+      },
+      {
+        "heading": "Learnings",
+        "level": 2
+      },
+      {
+        "heading": "Thoughts",
+        "level": 2
+      },
+      {
+        "heading": "Artifacts",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-MM\") %>",
+        "displayText": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"MMMM\") %>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").subtract(1, \"days\").format(\"YYYY-MM-DD\") %>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-[W]WW\")-%>",
+        "displayText": "<% moment(tp.file.title, \"YYYY-MM-DD\").format(\"[W]WW\")-%>"
+      },
+      {
+        "link": "<% moment(tp.file.title, \"YYYY-MM-DD\").add(1, \"days\").format(\"YYYY-MM-DD\") %>"
+      }
+    ]
+  }
+]

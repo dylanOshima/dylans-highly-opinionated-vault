@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "deadline": "date",
+    "role": "text",
+    "check-in frequency": "number",
+    "assumed-level": "number"
+  }
+}

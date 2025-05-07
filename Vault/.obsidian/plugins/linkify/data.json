@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "regexp": "g:([a-zA-Z0-9.-]*)",
+      "link": "http://google.com/search?q=$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "gh:([a-zA-Z0-9./-]*)",
+      "link": "http://github.com/$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "T([0-9]+)",
+      "link": "https://www.internalfb.com/tasks/?t=$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "D([0-9]+)",
+      "link": "https://www.internalfb.com/diff/D$1",
+      "cssclass": ""
+    }
+  ]
+}

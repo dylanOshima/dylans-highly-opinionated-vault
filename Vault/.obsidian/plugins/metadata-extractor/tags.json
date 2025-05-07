@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "top-of-mind",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Top of Mind.md"
+    ]
+  },
+  {
+    "tag": "wp-post",
+    "tagCount": 2,
+    "relativePaths": [
+      "Templates/Top of Mind.md",
+      "Templates/Post Template.md"
+    ]
+  },
+  {
+    "tag": "top-of-mind-post",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Top of Mind.md"
+    ]
+  },
+  {
+    "tag": "project",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Project.md"
+    ]
+  },
+  {
+    "tag": "people",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/People.md"
+    ]
+  },
+  {
+    "tag": "monthly",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Monthly.md"
+    ]
+  },
+  {
+    "tag": "notes",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Note.md"
+    ]
+  },
+  {
+    "tag": "meeting-notes",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Meeting Notes.md"
+    ]
+  },
+  {
+    "tag": "daily",
+    "tagCount": 2,
+    "relativePaths": [
+      "Templates/Daily.md",
+      "Calendar/2025-05-07.md"
+    ]
+  },
+  {
+    "tag": "artifact",
+    "tagCount": 1,
+    "relativePaths": [
+      "Templates/Artifact.md"
+    ]
+  }
+]

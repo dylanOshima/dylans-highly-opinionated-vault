@@ -1,0 +1,109 @@
+{
+  "folders": [
+    {
+      "name": "",
+      "relativePath": "/"
+    },
+    {
+      "name": "Calendar",
+      "relativePath": "Calendar"
+    },
+    {
+      "name": "Notes",
+      "relativePath": "Notes"
+    },
+    {
+      "name": "Outputs",
+      "relativePath": "Outputs"
+    },
+    {
+      "name": "Projects",
+      "relativePath": "Projects"
+    },
+    {
+      "name": "Scripts",
+      "relativePath": "Scripts"
+    },
+    {
+      "name": "Team",
+      "relativePath": "Team"
+    },
+    {
+      "name": "Templates",
+      "relativePath": "Templates"
+    },
+    {
+      "name": "Inbox",
+      "relativePath": "Notes/Inbox"
+    },
+    {
+      "name": "Meeting Notes",
+      "relativePath": "Notes/Meeting Notes"
+    },
+    {
+      "name": "Posts",
+      "relativePath": "Outputs/Posts"
+    },
+    {
+      "name": "Archived",
+      "relativePath": "Projects/Archived"
+    },
+    {
+      "name": "Me",
+      "relativePath": "Team/Me"
+    },
+    {
+      "name": "People",
+      "relativePath": "Team/People"
+    },
+    {
+      "name": "templater",
+      "relativePath": "Scripts/templater"
+    },
+    {
+      "name": "utils",
+      "relativePath": "Scripts/utils"
+    },
+    {
+      "name": "Top of Minds",
+      "relativePath": "Outputs/Posts/Top of Minds"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "quick-add-create-project-folder.js",
+      "basename": "quick-add-create-project-folder",
+      "relativePath": "Scripts/quick-add-create-project-folder.js"
+    },
+    {
+      "name": "quick-add-project-area-filter.js",
+      "basename": "quick-add-project-area-filter",
+      "relativePath": "Scripts/quick-add-project-area-filter.js"
+    },
+    {
+      "name": "quick-add-projects-area-variables.js",
+      "basename": "quick-add-projects-area-variables",
+      "relativePath": "Scripts/quick-add-projects-area-variables.js"
+    },
+    {
+      "name": "add_project_checkin_tasks.js",
+      "basename": "add_project_checkin_tasks",
+      "relativePath": "Scripts/templater/add_project_checkin_tasks.js"
+    },
+    {
+      "name": "getAllProjectAreas.js",
+      "basename": "getAllProjectAreas",
+      "relativePath": "Scripts/utils/getAllProjectAreas.js"
+    },
+    {
+      "name": "getContentUnderHeader.js",
+      "basename": "getContentUnderHeader",
+      "relativePath": "Scripts/utils/getContentUnderHeader.js"
+    },
+    {
+      "name": "index.js",
+      "basename": "index",
+      "relativePath": "Scripts/utils/index.js"
+    }
+  ]
+}
